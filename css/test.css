@@ -1,0 +1,72 @@
+.padreFlex{
+    display: flex;
+    /* flex-direction: row; Ubica todo en fila */
+    /* flex-wrap: nowrap; Ajusta el tamaño de los items segun el ancho del navegador */
+    /* flex-flow: row nowrap; Resumir las 2 etiquetas de arriba */
+    /*justify-content: flex-start; Empieza desde el inicio del navegador*/
+    /* justify-content: flex-end; Empieza desde el final del navegador */
+    /* justify-content: center; Centra el contenido */
+    /* justify-content: space-between; Pone todo contra el borde del navegador  */
+    /* justify-content: space-around; Pone todo al borde pero con un espacio */
+    /* justify-content: space-evenly; Pone todo el espaciado igual entre cada item */
+    /* align-items: stretch; llena todo el ancho del navegador */
+    /* align-items: flex-start; empieza desde el inicio del navegador */
+    /* align-items: flex-end; empieza por el final del navegador */
+    /* align-items: center; centra el contenido  */
+    /* align-items: baseline; toma una linea de base  */
+    /* align-content: stretch; ajusta el contenido  */
+    /* align-content: flex-start; pone todo el contenido al inicio del navegador */
+    /* align-content: flex-end; todo al final */
+    /* align-content: space-between; contenido al borde  */
+    /* align-content: space-around;  */
+    /* align-content: space-evenly;  */
+}
+
+
+/*display:grid al elemento padre.
+
+
+
+
+
+.huerfano{
+    order: -1;
+    flex-basis: 100%;
+}
+
+
+    /* .principalSobreMi{
+        display: grid;
+        grid-template-columns: 60rem 20rem; /*define las columnas
+        grid-template-rows: 80rem;     /*define las filas
+        grid-template-areas:
+        "header header"
+        "nosotros nosotros"
+        
+        }*/
+
+        /*grid-column
+        justify-content - start, end, center, stretch, space-around, space-between, space-evenly
+        justify-content
+        justify-self
+        align-self
+        grid-area*/
+
+    /* background-color: linearGradient(red, yellow);
+    background-color: linearGradient(to right, red , yellow);
+    transform: translate(1rem, 2 rem); 
+    transform: rotate(45deg);
+    transform: rotateX(45deg);  
+    transform: scale(3,2);
+    transform: skew(20deg,10deg);
+    transition: height 2s;
+    @keyframes efecto{
+        0%{ width: 100px;}
+        25%{width: 300px;}
+        50%{width: 200px;}
+        
+    } */
+
+
+
+    
