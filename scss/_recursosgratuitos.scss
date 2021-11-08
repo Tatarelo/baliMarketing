@@ -32,6 +32,11 @@
     margin-left: auto;
     margin-right: auto;
 
+    &__picture {
+        width: 100%;
+        max-width: 300px;
+    }
+
     &__imgDos { //Estilos de la imagen
         width: 70%;
         padding: 20px;

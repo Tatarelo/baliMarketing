@@ -150,6 +150,9 @@ header {
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto; }
+  .recursosGratuitosDos__picture {
+    width: 100%;
+    max-width: 300px; }
   .recursosGratuitosDos__imgDos {
     width: 70%;
     padding: 20px;
