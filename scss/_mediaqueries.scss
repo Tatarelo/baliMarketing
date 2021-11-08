@@ -1,0 +1,114 @@
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        margin-right: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .seccionUno {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccionDos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobreMi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__seccion {
+            width: 100%;
+        }
+    }
+
+    .recursosGratuitos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        &__logo {
+            width: 100px;
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+
+        p{
+            font-size: 14px;
+        }
+
+        .footer {
+
+            display: flex;
+            justify-content: center;
+
+            &__logo {
+                width: 100px;
+            }
+        }
+
+        .seccionUno {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .seccionUno__img {
+            width: 200px;
+        }
+
+        .seccionDos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .sobreMi {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__seccion {
+                width: 100%;
+            }
+
+            &__img {
+                width: 280px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .recursosGratuitos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__lista--color{
+                font-size: 12px;
+            }
+        }
+
+        .contacto__form {
+            &__boton {
+                margin-top: 12px;
+            }
+        }
+    }
+}

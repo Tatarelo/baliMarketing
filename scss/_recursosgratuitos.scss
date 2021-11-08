@@ -1,0 +1,56 @@
+// Estilos de la seccion "Recursos Gratuitos"
+.recursosGratuitos {
+    display: flex;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__picture {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    &__img { 
+        width: 100%;
+        padding: 10px;
+        transition: all 0.5s;
+
+        &:hover { //Animacion de la imagen 
+            transform: scale(1.05);
+        }
+    }
+
+    &__imgDos { //Estilos de la imagen
+        width: 70%;
+        padding: 20px;
+        margin-bottom: 20px;
+        transition: all 0.5s;
+
+        &:hover { //Animacion de la imagen
+            transform: scale(1.05);
+        }
+    }
+
+    &__imgTres { //Estilos de la imagen
+        width: 40%;
+        transition: all 0.5s;
+
+        &:hover { //Animacion de la imagen
+            transform: scale(1.05);
+        }
+    }
+
+    &__lista--color { //Estilos de la lista
+        font-weight: bold;
+        padding: 10px;
+        letter-spacing: 1.8px;
+        font-size: 17px;
+    }
+
+    &__titulo { //Estilos de los titulos
+        padding: 10px;
+        margin-bottom: 10px;
+        color: #197b7a;
+    }
+}

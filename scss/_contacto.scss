@@ -1,0 +1,16 @@
+// Correccion del margen del titulo del formulario de contacto
+.contacto__titulo{
+    margin: 0 !important;
+    padding: 30px;
+    }
+
+// Correccion de la altura del formulario
+.contacto__form{
+    margin-top: 180px;
+    min-height: 500px;
+    height: calc(100vh - 320px);
+    }
+
+.contacto__boton{
+    background-color: #197b7a;
+}

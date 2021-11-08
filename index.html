@@ -11,12 +11,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="css/pruebacss.css">
-  <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+  <link rel="stylesheet" href="css/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -55,7 +53,7 @@
   </header>
   <main>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade carrusel" data-bs-ride="carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade carrusel animate__animated animate__zoomInUp" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="imgs/carrusel1.jpg" class="d-block w-100 carrusel__radio" alt="Imagen de carrusel">
@@ -145,10 +143,10 @@
   </main>
   <footer class="footer">
     <a href="index.html"><img src="imgs/balifooter2.png" alt="Logo del pie de pagina" class="footer__logo"></a>
-    <ul class="footer__menu">
-      <li><a href="https://www.linkedin.com/in/noelia-florencia-filippini/" class="footer__link footer__link--linkedin">Linkedin</a></li>
-      <li><a href="https://www.instagram.com/balimarketingcoaching/" class="footer__link footer__link--instagram">Instagram</a></li>
-    </ul>
+    <div class="footer__menu">
+    <a class="btn btn-primary btn-sm footer__redes" href="https://www.instagram.com/balimarketingcoaching/" role="button">Instagram</a>
+    <a class="btn btn-primary btn-sm footer__redes" href="https://www.linkedin.com/in/noelia-florencia-filippini/" role="button">Linkedin</a>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

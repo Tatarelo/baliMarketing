@@ -1,0 +1,30 @@
+// Estilos de la seccion "Blog"
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+
+    &__seccion { //Ancho de la seccion
+        width: 60%;
+    }
+
+    &__picture { //Ancho de la imagen
+        width: 100%;
+        max-width: 320px;
+    }
+
+    &__img { //Estilos de la imagen
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+        transition: all 1s;
+
+        &:hover { //Animacion de la imagen
+            transform: scale(1.05);
+        }
+    }
+}

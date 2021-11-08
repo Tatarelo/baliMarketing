@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { //Fuente y fondo del sitio
+    font-family: 'Corben', cursive;
+    background-color: whitesmoke;
+}
+
+// Estilos del titulo del index
+h1 {
+    color: #197b7a;
+    font-size: 42px;
+    padding: 5px;
+    text-align: center;
+}
+
+// Estilos de los parrafos
+p {
+    color: black;
+    font-size: 17px;
+    letter-spacing: 1.8px;
+    padding: 10px;
+}
+
+@import "header";
+@import "index";
+@import "blog";
+@import "sobremi";
+@import "recursosgratuitos";
+@import "contacto";
+@import "footer";
+@import "mediaqueries";
