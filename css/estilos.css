@@ -59,6 +59,8 @@ header {
     transition: all .3s; }
     .seccionUno__img:hover {
       transform: scale(1.05) rotate(0.5deg); }
+  .seccionUno__titulo {
+    margin-bottom: 50px; }
 
 .seccionDos {
   margin-left: auto;
@@ -68,15 +70,18 @@ header {
   margin-bottom: 100px;
   padding: 15px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around; }
   .seccionDos__video {
     height: 600px;
     max-width: 300px;
-    padding: 15px; }
+    padding: 15px;
+    margin-bottom: 100px; }
 
 .carrusel {
   margin-top: 120px;
+  margin-bottom: 150px;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto; }
@@ -143,6 +148,8 @@ header {
     transition: all 0.5s; }
     .recursosGratuitos__img:hover {
       transform: scale(1.05); }
+  .recursosGratuitos__titulo {
+    color: #197b7a; }
 
 .recursosGratuitosDos {
   display: flex;
@@ -187,11 +194,17 @@ header {
 .contacto__boton {
   background-color: #197b7a; }
 
+.row {
+  display: flex;
+  justify-content: center; }
+
+.form-control {
+  margin-bottom: 10px; }
+
 .footer {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-color: #efe3d5;
   background: linear-gradient(0deg, #efe3d5 60%, whitesmoke 100%);
   height: 140px;
   padding: 10px; }
@@ -277,3 +290,23 @@ header {
     display: flex;
     flex-direction: column-reverse;
     align-items: center; } }
+
+.error404 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 200px; }
+  .error404__titulo {
+    font-size: 100px;
+    letter-spacing: 10px; }
+  .error404__texto {
+    font-size: 25px; }
+
+.e404 {
+  display: flex;
+  margin-top: 100px; }
+
+.bali404 {
+  max-width: 400px;
+  margin-left: 50px; }

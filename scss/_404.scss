@@ -1,0 +1,27 @@
+.error404{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+
+    &__titulo{
+        font-size: 100px;
+        letter-spacing: 10px;
+    }
+
+    &__texto{
+        font-size: 25px;
+    }
+}
+
+.e404{
+    display: flex;
+    margin-top: 100px;
+}
+
+.bali404{
+    max-width: 400px;
+    margin-left: 50px;
+}
+
